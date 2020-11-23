@@ -1,0 +1,169 @@
+body {
+    background-image: url(pozadina.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#link {
+    position: relative;
+    left: 512px;
+    width: 255px;
+    height: 70px;
+    top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+#link1 {
+    position: relative;
+    left: 512px;
+    width: 255px;
+    height: 70px;
+    top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+#dodaj {
+    position: relative;
+    left: 512px;
+    width: 200px;
+    height: 50px;
+    top: 100px;
+
+}
+
+#pomnozi {
+    position: relative;
+    left: 313px;
+    width: 200px;
+    height: 50px;
+    top: 300px;
+
+}
+
+.elementNiza {
+    top: 35px;
+    position: relative;
+    left: 512px;
+    border: 1px solid black;
+    width: 100px;
+    height: 45px;
+    background-color: white;
+    text-align: center;
+
+}
+
+#brojClanovaNiza {
+    position: relative;
+    left: 700px;
+    text-align: center;
+}
+
+#vrednost {
+    position: relative;
+    left: 650px;
+    bottom: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: wheat;
+}
+
+#java {
+    position: relative;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    width: 50%;
+    height: 300px;
+}
+
+#javaParagraf {
+    text-align: justify;
+    width: 400px;
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    color: white
+}
+
+#javaLink {
+    position: relative;
+    left: 50px;
+    top: 10px;
+    font-size: 25px;
+    width: 50%;
+    text-decoration: none;
+
+}
+
+#javaH2 {
+    color: dodgerblue;
+    position: relative;
+    left: 150px;
+    width: 50%;
+
+}
+
+#javaH3 {
+    position: relative;
+    left: 100px;
+    width: 50%;
+}
+
+#javascript {
+    position: relative;
+    left: 800px;
+    bottom: 320px;
+    
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    width: 41%;
+    height: 300px;
+}
+
+#javaScriptParagraf {
+    text-align: justify;
+    width: 400px;
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    color: white
+}
+
+#javaScriptLink {
+    position: relative;
+    left: 50px;
+    top: 10px;
+    font-size: 25px;
+    width: 50%;
+    text-decoration: none;
+}
+
+#javaScriptH2 {
+    color: dodgerblue;
+    position: relative;
+    left: 150px;
+    width: 50%;
+}
+
+#javaScriptH3 {
+    position: relative;
+    left: 100px;
+    width: 50%;
+    color: wheat;
+}
+
+#racun {
+    position: relative;
+    right: 100px;
+    width: 50%;
+    top: 100px;
+}

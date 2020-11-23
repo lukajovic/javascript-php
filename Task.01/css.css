@@ -1,0 +1,11 @@
+#main {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+h1 {
+    position: relative;
+    left: 512px;
+    font-size: 35px;
+}

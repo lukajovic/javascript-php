@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="brojClanovaNiza">
+        <input type="submit" value="Unesi broj clanova niza" onclick="duzinaNiza()"><br><br><br>
+        <form id="unos"></form>
+        <p id="niz"></p>
+        <form id="meni">
+
+            <select name="drop">
+                <option value=""></option>
+                <option value="plus" onclick="sabiranje()">+</option>
+                <option value="minus" onclick="mnozenje()">*</option>
+
+            </select></form>
+        <button name="button2" onclick="sabiranje()">Zbir clanova niza</button>
+        <button name="button3" onclick="mnozenje()">Proizvod clanova niza</button>
+        <p id="vrednost"></p>
+
+    </div>
+</body>
+
+</html>

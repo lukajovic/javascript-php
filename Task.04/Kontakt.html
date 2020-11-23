@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/js1.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Pocetna strana</a></li>
+            <li><a href="O_Kompaniji.html">O Kompaniji</a></li>
+            <li><a href="ONama.html">O nama</a></li>
+            <li><a href="Karijere.html">Vasa karijera</a></li>
+            <li><a href="Karijere.html">Karijere</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+        </ul>
+    </div>
+
+    <p id=clanKarijera1>Kontaktirajte nas</p>
+    <div id="formaKontakt">
+        <div action="">
+            <p class="izgledSlova">IME :</p>
+            <input type="text" name="" id="ime1">
+            <p id="imeUnos"></p>
+            <p class="izgledSlova">PREZIME :</p>
+            <input type="text" name="" id="prezime1">
+            <p id="prezimeUnos"></p>
+            <p class="izgledSlova">VASA PITANJA :</p>
+            <textarea name="" id="textarea"></textarea>
+            <p id="textarea1"></p>
+            <p class="izgledSlova">VAS BROJ :</p>
+            <input type="text" name="" id="broj">
+            <p id="broj1"></p>
+                <input type="submit" value="Posalji" id="posalji" onclick=validacijaForme()>
+
+        </div>
+    </div>
+
+    <div class="mapouter">
+        <p id="lokacija1">Nasa lokacija</p>
+        <div class="gmap_canvas"><iframe width="522" height="339" id="gmap_canvas" src="https://maps.google.com/maps?q=Nemanjina%202%20Belgrade&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/internetagentur/"></a></div>
+        <style>
+            .mapouter {
+                text-align: right;
+                height: 339px;
+                width: 522px;
+            }
+
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 339px;
+                width: 522px;
+            }
+        </style>
+    </div>
+    <div id="info">
+        <p>BROJ TELEFONA : +381658567789</p>
+        <p>EMAIL : webster@gmail.com</p>
+    </div>
+
+    <div id="footer">
+        <p id="footer1">Luka Jovic 3854 - Webster Inc</p>
+    </div>
+</body>
+
+</html>
